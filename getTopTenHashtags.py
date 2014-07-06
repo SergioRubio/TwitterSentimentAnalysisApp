@@ -28,7 +28,7 @@ def getTopTenHashtags(twitterStreamFile):
 
     topTenHashtags = sorted(hashtagsDict.iteritems(), key=operator.itemgetter(1), reverse=True)[:10]
 
-    return topTenHashtags[:10]
+    return topTenHashtags
 
 
 if __name__ == '__main__':
